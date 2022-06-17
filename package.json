@@ -1,6 +1,11 @@
 {
+  "name": "burning-man",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "sass": "^1.52.3",
     "scss": "^0.2.4"
   }
 }
+
+

@@ -1,7 +1,7 @@
 @import "zeroing";
 
 body{
-  font-family: Anton, Open Sans;
+  font-family: 'Anton', sans-serif;
   background-color: rgb(223, 223, 223);
 }
 
@@ -22,16 +22,20 @@ body{
     width: 100%;
     height: 1000px;
     .header__nav{
-      position: absolute;
-      margin: 58px 10% 0;
-      width: 1150px;
       display: flex;
       align-items: center;
+      position: absolute;
+      left: 13.5%;
+      right: 13.44%;
+      top: 6.33%;
+      bottom: 88.33%;
       .nav_links{
         margin-left: 70px;
         width: 314px;
         display: flex;
         justify-content: space-between;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
       }
       .link_item{
         cursor: pointer;
@@ -49,21 +53,26 @@ body{
       }
     }
     .header__section{
-      position: absolute;
       text-transform: uppercase;
-      top: 40%;
-      left: 10%;
+      position: absolute;
+      left: 13.31%;
+      right: 54.75%;
+      top: 35.67%;
+      bottom: 40%;
       .section__title{
+        letter-spacing: 0.1em;
         font-size: 30px;
       }
       .section__subtitle{
         font-size: 100px;
         padding: 20px 0;
-        margin-left: -8px;
+        margin-left: -3px;
       }
       .section__button{
-        margin-top: 20px;
-        display: inline-block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        letter-spacing: 0.1em;
         font-size: 17px;
         border: 1px solid #fff;
         padding: 18px 50px;
@@ -79,6 +88,7 @@ body{
     position: relative;
     width: 1600px;
     .about__title {
+      margin: 0 auto;
       font-size: 50px;
       text-transform: uppercase;
       margin-top: 113px;
@@ -98,6 +108,7 @@ body{
         margin-top: 32px;
         font-size: 16px;
         line-height: 26px;
+        font-family: 'Open Sans';
       }
       .p__p2 {
         display: inline-block;
@@ -118,8 +129,7 @@ body{
     margin-top: 100px;
     padding-bottom: 100px;
     font-size: 15px;
-    .footer__text1{
-    }
+    font-family: 'Open Sans';
     .footer__text2{
       margin-left: 50px;
     }
